@@ -1,0 +1,617 @@
+body{
+  display: flex;
+  margin: 0 auto;
+}
+
+.beNone{
+  display: none;
+}
+
+.event1-A{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 3vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime1 13s;
+}
+
+.event1-B{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 3.4vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime2 13s;
+}
+
+.event1-C{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 15vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime3 13s;
+}
+
+.event2-A{
+  object-fit: contain;
+  margin-left: 37vw;
+  margin-top: 4vw;
+  width: 26vw;
+  z-index: 10;
+  animation: anime1 13s;
+}
+
+.event2-B{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 3.4vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime2 13s;
+}
+
+.event2-C{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 15vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime3 13s;
+}
+
+.event3-A{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 15vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime1 13s;
+}
+
+.event3-B{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 15vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime2 13s;
+}
+
+.event3-C{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 8vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime3 13s;
+}
+
+.event4-A{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 15vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime1 13s;
+}
+
+.event4-B{
+  object-fit: contain;
+  margin-left: 23vw;
+  margin-top: 7vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime2 13s;
+}
+
+.event5-A{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 7vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime6 13s;
+}
+
+.event5-B{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 15vw;
+  width: 40vw;
+  z-index: 10;
+  animation: anime7 13s;
+}
+
+.event6-A{
+  object-fit: contain;
+  width: 100vw;
+  z-index: 11;
+  margin: 0;
+  animation: anime4 13s;
+}
+
+.event6-B{
+  object-fit: contain;
+  margin-left: 30vw;
+  margin-top: 28vw;
+  width: 40vw;
+  z-index: 12;
+  animation: anime5 13s;
+}
+
+.sabori{
+  width: 50vw;
+  margin-left:25vw;
+  margin-top:5vw;
+  z-index: 200;
+  display: none;
+}
+
+.monster{
+  display: none;
+  width: 45vw;
+  margin-left: 26vw;
+  z-index: 200;
+  margin-top: 5vw;
+}
+
+.flash4{
+  animation: flashC 4s;
+}
+
+.flashDay{
+  animation: flashE 6s;
+}
+
+.flashC4{
+  animation: flashC 4s;
+}
+
+.flash8{
+  animation: flashD 10s;
+}
+
+.room img{
+  position: absolute;
+  width: 100vw;
+}
+
+img{
+  position: absolute;
+}
+
+p{
+  position: absolute;
+}
+
+.day-flame{
+  width: 8vw;
+  z-index: 2;
+  margin-top: -1.1vw;
+  margin-left: 4vw;
+  object-fit: contain;
+  transform:rotate(90deg);
+}
+
+.day{
+  text-align:center;
+  font-size: 26px;
+  margin-top: 4.3vw;
+  margin-left: 3.3vw;
+  z-index: 3;
+}
+
+.day2{
+  text-align:center;
+  font-size: 26px;
+  margin-top: 3.5vw;
+  margin-left: 3.3vw;
+  z-index: 3;
+}
+
+.day-anime{
+  text-align:center;
+  position: absolute;
+  font-size: 80px;
+  width: 100vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 20vw;
+  display: none;
+}
+
+.day-anime6{
+  position: absolute;
+  font-size: 80px;
+  width: 80vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 16vw;
+  margin-left: 12vw;
+  display: none;
+}
+
+.day-anime11{
+  position: absolute;
+  font-size: 80px;
+  width: 92vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 16vw;
+  margin-left: 8vw;
+  display: none;
+}
+
+.day-anime13{
+  position: absolute;
+  font-size: 80px;
+  width: 89vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 16vw;
+  margin-left: 11vw;
+  display: none;
+}
+
+.day-anime15{
+  position: absolute;
+  font-size: 80px;
+  width: 92vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 18vw;
+  margin-left: 15vw;
+  display: none;
+}
+
+.day-anime16{
+  position: absolute;
+  font-size: 80px;
+  width: 90vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 16vw;
+  margin-left: 8vw;
+  display: none;
+}
+
+.day-anime17{
+  position: absolute;
+  font-size: 80px;
+  width: 80vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 16vw;
+  margin-left: 18vw;
+  display: none;
+}
+
+.day-anime18{
+  position: absolute;
+  font-size: 80px;
+  width: 80vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 13vw;
+  margin-left: 18vw;
+  display: none;
+}
+
+.day-anime19{
+  position: absolute;
+  font-size: 80px;
+  width: 80vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 13vw;
+  margin-left: 10vw;
+  display: none;
+}
+
+.day-anime20{
+  position: absolute;
+  font-size: 70px;
+  width: 90vw;
+  height: 30vw;
+  z-index: 300;
+  color: aliceblue;
+  margin-top: 21vw;
+  margin-left: 8vw;
+  display: none;
+}
+
+.day-anime-start{
+  animation: flash-day 3s;
+}
+
+.black-back{
+  width: 100vw;
+  z-index: 9;
+}
+
+.black-flash{
+  animation: flash-blackA 4s;
+}
+
+.black-flash2{
+  animation: flash-blackA 1.5s;
+}
+
+.tutorialA{
+  margin-top: 21vw;
+  margin-left: 30vw;
+  z-index: 5;
+  object-fit: contain;
+  width: 40vw;
+}
+
+.tutorialB{
+  margin-top: 20vw;
+  margin-left: 27.5vw;
+  z-index: 5;
+  object-fit: contain;
+  width: 45vw;
+  display: none;
+}
+
+.tutorialC{
+  margin-top: 22vw;
+  margin-left: 30vw;
+  z-index: 5;
+  object-fit: contain;
+  width: 40vw;
+  display: none;
+}
+
+.tutorial-buttonA{
+  position: absolute;
+  z-index: 5;
+  margin-top: 31vw;
+  margin-left: 65vw;
+}
+
+.tutorial-buttonB{
+  position: absolute;
+  z-index: 5;
+  margin-top: 32vw;
+  margin-left: 66vw;
+}
+
+.tutorial-buttonC{
+  position: absolute;
+  z-index: 5;
+  margin-top: 32vw;
+  margin-left: 61vw;
+}
+
+.monologueA{
+  text-align:center;
+  width: 100vw;
+  margin-top: 18vw;
+  font-size: 60px;
+  color: white;
+  animation: flashA 8s;
+  z-index: 100;
+}
+
+.monologueB{
+  text-align:center;
+  width: 100vw;
+  margin-top: 25vw;
+  font-size: 60px;
+  color: white;
+  animation: flashB 8s;
+  z-index: 100;
+}
+
+
+.buttonA{
+  margin-left: 10vw;
+  margin-top: 45vw;
+}
+.buttonB{
+  margin-left: 28vw;
+  margin-top: 45vw;
+}
+.buttonC{
+  margin-left: 46vw;
+  margin-top: 45vw;
+}
+.buttonD{
+  margin-left: 64vw;
+  margin-top: 45vw;
+}
+.buttonE{
+  margin-left: 82vw;
+  margin-top: 45vw;
+}
+
+.ten{
+  margin-left: 14vw;
+  margin-top: 10.5vw;
+  z-index: 2;
+  position: absolute;
+}
+
+.menu-button{
+  width: 8vw;
+  height: 5vw;
+  z-index: 5;
+  position: absolute;
+}
+
+.ten-p{
+  z-index: 2;
+  margin-top:10vw;
+  margin-left: 2vw;
+  background-color: rgb(172, 172, 172);
+}
+
+.room{
+  z-index: 1;
+  object-fit: contain;
+  width: 100vw;
+}
+.humanA{
+  z-index: 3;
+  margin-top: 15vw;
+  margin-left: 5vw;
+  width: 13vw;
+  object-fit: contain;
+}
+
+@keyframes flash-day{
+  0% {opacity: 0;}
+ 40% {opacity: 1;}
+ 80% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes flash-blackA{
+  0% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes flash-blackB{
+  0% {opacity: 0;}
+ 40% {opacity: 1;}
+ 80% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes flashA{
+  0% {opacity: 0;}
+ 25% {opacity: 1;}
+ 75% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes flashB{
+  0% {opacity: 0;}
+ 25% {opacity: 0;}
+ 50% {opacity: 1;}
+ 75% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes flashC{
+  0% {opacity: 0;}
+ 25% {opacity: 1;}
+ 75% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes flashE{
+  0% {opacity: 0;}
+ 16.6% {opacity: 1;}
+ 40% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes flashF{
+  0% {opacity: 0;}
+ 16.6% {opacity: 1;}
+ 50% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes flashD{
+  0% {opacity: 0;}
+ 10% {opacity: 1;}
+ 70% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+
+
+@keyframes anime1{
+  0% {opacity: 0;}
+ 10% {opacity: 0;}
+ 15% {opacity: 1;}
+ 25% {opacity: 1;}
+ 30% {opacity: 0;}
+ 35% {opacity: 0;}
+ 45% {opacity: 0;}
+ 50% {opacity: 0;}
+ 55% {opacity: 0;}
+ 65% {opacity: 0;}
+ 70% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes anime2{
+  0% {opacity: 0;}
+ 10% {opacity: 0;}
+ 15% {opacity: 0;}
+ 25% {opacity: 0;}
+ 30% {opacity: 0;}
+ 35% {opacity: 1;}
+ 45% {opacity: 1;}
+ 50% {opacity: 0;}
+ 55% {opacity: 0;}
+ 65% {opacity: 0;}
+ 70% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes anime3{
+  0% {opacity: 0;}
+ 10% {opacity: 0;}
+ 15% {opacity: 0;}
+ 25% {opacity: 0;}
+ 30% {opacity: 0;}
+ 35% {opacity: 0;}
+ 45% {opacity: 0;}
+ 50% {opacity: 0;}
+ 55% {opacity: 1;}
+ 65% {opacity: 1;}
+ 70% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes anime4{
+  0% {opacity: 0;}
+ 10% {opacity: 0;}
+ 15% {opacity: 1;}
+ 70% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes anime5{
+  0% {opacity: 0;}
+ 10% {opacity: 0;}
+ 15% {opacity: 0;}
+ 25% {opacity: 1;}
+ 55% {opacity: 1;}
+ 68% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes anime6{
+  0% {opacity: 0;}
+ 10% {opacity: 0;}
+ 15% {opacity: 1;}
+ 25% {opacity: 1;}
+ 30% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes anime7{
+  0% {opacity: 0;}
+ 30% {opacity: 0;}
+ 35% {opacity: 1;}
+ 65% {opacity: 1;}
+ 70% {opacity: 0;}
+100% {opacity: 0;}
+}
